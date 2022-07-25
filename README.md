@@ -2,6 +2,7 @@
 blog files for aliakarchive.com
 
 - clone / download source files via tz1and : https://github.com/tz1and/typed.art-blog-template
+- see my fork at https://github.com/AliaK77/typed.art-blog-template/tree/main/src/TypedArtBlog
 - change the categories (TypedArtPostType) and whitelist in src/TypedArtBlog/TypedArtUtils.tsx
 - run "npm run build" to update/create build version
 - upload the build dir to hosting site
