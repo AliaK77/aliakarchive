@@ -7,6 +7,7 @@ blog files for aliakarchive.com
 - upload the build dir to hosting site
 - for dreamhost, use this .htaccess file
 
+````
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -16,5 +17,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule . /index.html [L]
 </IfModule>
-
+````
 
